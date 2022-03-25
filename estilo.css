@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: azure;
+}
+
+.navbarjv{
+    background-color: yellowgreen;
+    padding: 7px 10px;
+    width: 95%;
+    height: 130px;
+    flex: content;
+    margin: 10px auto;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    border-radius: 15px;
+}
+
+.navbarjv > a{
+    color: white;
+    padding: 10px;
+}
+
+.navbarjv > .icones{
+    float: left;
+    margin-right: 50px;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+
+.navbarjv > .icones > img{
+    width: 100px;
+    height: 100px;
+}
+
+.navbarjv > ul{
+    list-style: none;
+}
+
+.menu{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+    float: left;
+    color: white;
+    line-height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.navbarjv > ul > li > a:hover{
+    background-color: white;
+    color: yellowgreen;
+}
+
+.pesquisa{
+    background-color: yellowgreen;
+    padding: 7px 10px;
+    width: 95%;
+    height: auto;
+    flex: content;
+    margin: 10px auto;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.conteudo{
+    background-color: aquamarine;
+    width: 90%;
+    margin: 30px auto;
+    padding-top: 30px;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    border-radius: 10px;
+
+}
+
+
+.conteudo > .coluna1{
+    width: 50%;
+    display: inline-block;
+}
+
+
+
+.conteudo > .coluna1 > .foto > img{
+    width: 60%;
+    align-content: center;
+    display: block;
+    margin: 10px auto;
+}
+
+.conteudo > .coluna2{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.conteudo > .coluna2 > p{
+    margin-top: 50px;
+    font-size: larger;
+}
+
+a{
+    cursor: pointer;
+}
+
+
+.navbarjv > .icones:hover{
+    background-color: yellowgreen;
+}
+
+
+.tabela{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    height: auto;
+    background-color: greenyellow;
+}
+
+table{
+    width: 100%;
+    margin-top: 35px;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+}
+
+
+thead{
+    background-color: darkblue;
+    color: white;
+    
+}
+
+tbody{
+    background-color: cornflowerblue;
+}
+
+th{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td > a{
+    color: black;
+}
+
+td > a:hover{
+    color: white;
+}
+
+tr{
+    height: 50px;
+}
+
+.paginas{
+    margin: 50px auto;
+    width: 40%;
+    text-align: center;
+}
+
+.paginas > a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paginas > a:hover{
+    color: blue;
+}
+
+.container > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.formulario{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+input{
+    width: 90%;
+    border-radius: 10px;
+    height: 40px;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.logo > img{
+    width: 70%;
+    margin: 10px 20px;
+    display: block;
+}
+
+.coluna1 > .foto > img{
+    width: 70%;
+    margin: 10px 20px;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    border-radius: 10px;
+}
+
+.foto > img{
+    width: 70%;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    border-radius: 10px;
+}
+
+.conteudo > .botoes{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.conteudo > .coluna2 > .botoes{
+    margin-top: 50px;
+}
+
+.botoes > input{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.botoes > input:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.botoes > button{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 25%;
+    margin: 10px auto;
+    margin-left: 30px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: large;
+}
+
+.botoes > a > button{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 25%;
+    margin: 10px auto;
+    margin-left: 30px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: large;
+}
+
+#check{
+    display: none;
+}
+
+.btnjv{
+    display: none;
+}
+
+.botoes > a > button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+#check:checked ~ ul{
+    margin-left: 0;
+}
+
+footer{
+
+    background-color: yellowgreen;
+    padding: 7px 10px;
+    width: 95%;
+    height: auto;
+    flex: content;
+    margin: 10px auto;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+@media(max-width: 890px){
+    .menu{
+        text-decoration: none;
+        font-size: 16px;
+        margin: 5px;
+        margin-left: 10px;
+        padding-top: 40px;
+        float: left;
+    }
+}
+
+@media(max-width: 730px){
+    .menu{
+        display: block;
+        background-color: greenyellow;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        padding: 0;
+        margin: -1px;
+        border-radius: 0%;
+        line-height: 100px;
+        color: black;
+        }
+
+    .btnjv{
+        display: block;
+        font-size: 60px;
+        float: right;
+        margin-top: 15px;
+        color: white;
+    }
+
+    
+    #check:not(:checked) ~ ul{
+        display: none;
+    }
+
+    th{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    td{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .botoes > button{
+        font-size: small;
+        margin-left: 0;
+    }
+
+    .botoes > a > button{
+        font-size: small;
+        
+    }
+
+    .conteudo > .coluna1{
+        display: inline;
+        margin: 0 15px;
+        text-align: justify;
+    }
+
+    .conteudo > .coluna2{
+        display: inline;
+    }
+
+    .conteudo > .coluna2 > p{
+        margin: 0 15px;
+        text-align: justify;
+    }
+
+    .conteudo > .coluna2 > h2{
+        margin: 0 15px;
+        text-align: justify;
+    }
+
+    .coluna2 > .foto > img{
+        width: 90%;
+        box-shadow: 7px 7px 4px rgb(175, 175, 175);
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+}
+
+.slogan{
+    font-size: 35px;
+}
+
+@media(max-width: 800px){
+    .slogan{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 670px){
+    .slogan{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 550px){
+    .slogan{
+        font-size: 20px;
+    }
+}
+
+.novidade{
+    width: auto;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    border: 3px ridge;
+    border-color: aquamarine;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.novidade > a{
+    text-decoration: none;
+}
+
+.novidade > a > h3{
+    color: red;
+}
+
+.container{
+    width: 95%;
+}
+
+footer > .row > .col-md-3 > ul{
+    list-style: none;
+    font-size: 0.5em;
+    
+}
+
+footer > .row > .col-md-3 > ul > li > a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.login{
+    width: auto;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    border: 3px ridge;
+    border-color: aquamarine;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.login > form > .col > input{
+    background-color: aquamarine;
+}
