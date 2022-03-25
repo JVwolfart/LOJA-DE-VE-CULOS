@@ -395,13 +395,13 @@ footer{
 
 @media(max-width: 670px){
     .slogan{
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 
 @media(max-width: 550px){
     .slogan{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
